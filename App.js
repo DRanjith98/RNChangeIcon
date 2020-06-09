@@ -11,6 +11,15 @@ export default function App() {
       <TouchableOpacity onPress={() => changeIcon('js')}>
         <Text style={styles.button}>SWITCH TO js ICON</Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => changeIcon('android')}>
+        <Text style={styles.button}>SWITCH TO android ICON</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => changeIcon('ios')}>
+        <Text style={styles.button}>SWITCH TO ios ICON</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => changeIcon('windows')}>
+        <Text style={styles.button}>SWITCH TO windows ICON</Text>
+      </TouchableOpacity>
     </View>
   );
 }
